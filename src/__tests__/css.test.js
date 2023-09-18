@@ -30,18 +30,18 @@ test('todos os h2 possuem fonte de tamanho igual 1.2em', () => {
   }
 })
 
-test('Todos os paragrafos devem ter texto com a cor #333333', () => {
+test('Todos os paragrafos devem ter texto com a cor #323334', () => {
   const produto1 = screen.getByText("Descrição do produto 1.");
   let style =  window.getComputedStyle(produto1);
-  expect(style.color).toBe('rgb(51, 51, 51)');
+  expect(style.color).toBe('rgb(50, 51, 52)');
 
   const produto2 = screen.getByText("Descrição do produto 2.");
   style =  window.getComputedStyle(produto2);
-  expect(style.color).toBe('rgb(51, 51, 51)');
+  expect(style.color).toBe('rgb(50, 51, 52)');
 
   const produto3 = screen.getByText("Descrição do produto 3.");
   style =  window.getComputedStyle(produto3);
-  expect(style.color).toBe('rgb(51, 51, 51)');
+  expect(style.color).toBe('rgb(50, 51, 52)');
 })
 
 

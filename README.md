@@ -15,7 +15,7 @@ O objetivo deste exercício é praticar o uso de alguns seletores mais básicos 
  1. O arquivo **index.html** possui o código da lista
  1. Usando seletores CSS, aplique os estilos a seguir:
   - Todos os elementos *h2* devem ter o `font-size` igual a *1.2em*.
-  - Todos os elementos *p* devem ter o `color` igual a *#333333*.
+  - Todos os elementos *p* devem ter o `color` igual a *#323334*.
   - Todos os elementos *p.price* devem ter o `font-weight` igual a *bold*.
 
 
